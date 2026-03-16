@@ -20,6 +20,6 @@ struct Student {
     }
 
     float calcAvg() {
-        return (math + phys + it) / 3.0;
+        return (math + phys + it) / 3.0f;
     }
 }; //end struct Student
