@@ -5,7 +5,7 @@ using namespace std;
 
 
 struct Student {
-    /*--------Властивості, Поля = Змінні стр-ри -------------*/
+    /*--------Властивості, Поля = Змінні в середині стр-ри -------------*/
     char name[50] = "";
     int math = 0;
     int phys = 0;
@@ -16,6 +16,6 @@ struct Student {
         cout << "Name: " << name << endl;
         cout << "Math: " << math << endl;
         cout << "Phys: " << phys << endl;
-        cout << "IT:   " << it << endl << endl;;
+        cout << "IT:   " << it << endl << endl;
     }
-};
+}; //end struct Student
