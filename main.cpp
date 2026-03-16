@@ -19,7 +19,7 @@ int main() {
     //b.showInfo();
 
     int N = 2;
-    Studen* arr = new Studen[N] {
+    Student* arr = new Student[N] {
         {"Sydorchuk", 10, 6, 11},
         {"Shevchenko", 3, 5, 2}
     };
