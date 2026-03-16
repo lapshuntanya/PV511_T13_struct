@@ -18,4 +18,8 @@ struct Student {
         cout << "Phys: " << phys << endl;
         cout << "IT:   " << it << endl << endl;
     }
+
+    float calcAvg() {
+        return (math + phys + it) / 3.0;
+    }
 }; //end struct Student
